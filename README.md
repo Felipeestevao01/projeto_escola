@@ -1,5 +1,5 @@
 
-Descrição: Projeto Escola
+                                -Descrição: Projeto Escola-
 
 
 Requisitos:
@@ -49,3 +49,8 @@ Sistema online que possibilita cadastro de:
     Aluno <Aluno>
 
 1- No arquivo index.js, criar uma lista de objetos de cada entidade baseado na sua tabela e classe.
+
+
+Dúvidas
+
+- Nas tabelas professor e materia tem um campo que precisa informa um objeto.
