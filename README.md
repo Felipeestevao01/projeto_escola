@@ -54,3 +54,6 @@ Sistema online que possibilita cadastro de:
 Dúvidas
 
 - Nas tabelas professor e materia tem um campo que precisa informa um objeto.
+
+
+Ao listar os alunos - inserir uma LUPA na lista de trabalhos e materias para abrir uma modal com as informaçoes.
