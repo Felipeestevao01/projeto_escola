@@ -1,95 +1,177 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 
-.container__pai{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(192, 185, 185);
-    gap: 50px;
+/*CSS index*/
+.container__pai {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(192, 185, 185);
+  gap: 50px;
 }
 
-.container__1{
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-    height: 250px;
-    background-color: rgb(112, 187, 225);
-    margin: 25px;
-    border-radius: 10px;
+.container__1 {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 250px;
+  background-color: rgb(112, 187, 225);
+  margin: 10px;
+  border-radius: 10px;
 }
 
-.container__1 p{
-    display: flex;
-    padding: 10px;
+.container__1 p {
+  display: flex;
+  padding: 10px;
 }
 
-.container__2{
-    display: flex;
-    background-color: rgba(159, 94, 194, 0.496);
-    width: 350px;
-    height: 250px;
-    border-radius: 10px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px;
+.container__2 {
+  display: flex;
+  background-color: rgb(77, 81, 189);
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
 }
 
-.container__img{
-    display: flex;
-    width: 120px;
+.container__img {
+  display: flex;
+  width: 120px;
 }
 
-.btn{
-    display: flex;
-    font-size: 24px;
-    padding: 2px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    font-family: 'Inter Tight', sans-serif;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
+.btn {
+  display: flex;
+  font-size: 24px;
+  padding: 2px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+  font-family: "Inter Tight", sans-serif;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .btn:hover {
-    display: flex;
-    transition: 0.5s;
-    background-color: rgb(148, 153, 148);
+  display: flex;
+  transition: 0.5s;
+  background-color: rgb(148, 153, 148);
 }
 
-body{
-    display: flex;
-    margin-top: 30px;
-    justify-content: center;
+/*CSS telas de info*/
+body {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
 }
 
-.container__alunos{
-    display: flex;
-    width: 1150x;
-    height:600px;
-    background-color: rgb(122, 131, 128);
-    border-radius: 5px;
-    flex-direction: column;
-
+.container__alunos {
+  display: flex;
+  width: 1150x;
+  height: 600px;
+  background-color: rgb(122, 131, 128);
+  border-radius: 5px;
+  flex-direction: column;
 }
 
-.container__alunos h1{
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
+.container__alunos h1 {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .lista_informacoes {
-    display: flex;
-    font-size: 16px;
-    width: 1100px;
-    height: 450px;
+  display: flex;
+  font-size: 16px;
+  width: 1100px;
+  height: 450px;
 }
 
+/*CSS Login*/
+.container__login {
+  display: flex;
+  width: 350px;
+  height: 450px;
+  background-color: rgb(10, 13, 112);
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container__login h1 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.login__body {
+  margin-top: 100px;
+  background-image: radial-gradient(
+    circle,
+    rgb(188, 187, 187),
+    rgb(126, 126, 125),
+    rgb(202, 204, 202)
+  );
+}
+
+.container__usu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 350px;
+}
+
+.btn_login {
+  font-size: 18px;
+  font-weight: bold;
+  width: 70px;
+  text-decoration: none;
+  color: black;
+  border: none;
+  outline-style: none;
+}
+
+.btn_login:hover {
+  transition: 0.2s;
+  background-color: rgb(145, 145, 145);
+}
+
+.btn_login2 {
+  font-size: 14px;
+  font-weight: bold;
+  width: 100px;
+}
+
+.container__cadastro {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  width: 270px;
+}
+
+.container__cadastro p {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.input__usu {
+  font-size: 15px;
+  width: 250px;
+}
+
+.input__senha {
+  font-size: 15px;
+  width: 250px;
+}

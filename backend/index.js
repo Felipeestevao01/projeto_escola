@@ -9,6 +9,7 @@ const tabelaProfessor = require("./banco_de_dados/professor")
 const tabelaMateria = require("./banco_de_dados/materia")
 const tabelaTrabalho = require("./banco_de_dados/trabalho")
 
+
 let listaAlunos = []
 for (let x = 0; x < tabelaAluno.length; x++) {
     let nome = tabelaAluno[x][0]
@@ -70,4 +71,3 @@ for(let x = 0; x < tabelaTrabalho.length; x++){
     listaTrabalhos.push(trabalhoAtual)
 }
 
-console.log(listaCursos)
