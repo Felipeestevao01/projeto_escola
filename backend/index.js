@@ -26,7 +26,7 @@ for (let x = 0; x < tabelaAluno.length; x++) {
 }
 
 let listaCursos = []
-for(let x = 0; x < tabelaCurso.length; x++){
+for (let x = 0; x < tabelaCurso.length; x++) {
     let nome = tabelaCurso[x][0]
     let cargaHoraria = tabelaCurso[x][1]
     let professores = tabelaCurso[x][2]
@@ -37,7 +37,7 @@ for(let x = 0; x < tabelaCurso.length; x++){
 }
 
 let listaProfessores = []
-for(let x = 0; x < tabelaProfessor.length; x++){
+for (let x = 0; x < tabelaProfessor.length; x++) {
     let nome = tabelaProfessor[x][0]
     let sobrenome = tabelaProfessor[x][1]
     let dataNascimento = tabelaProfessor[x][2]
@@ -51,7 +51,7 @@ for(let x = 0; x < tabelaProfessor.length; x++){
 }
 
 let listaMaterias = []
-for(let x = 0; x < tabelaMateria.length; x++){
+for (let x = 0; x < tabelaMateria.length; x++) {
     let nome = tabelaMateria[x][0]
     let cargaHoraria = tabelaMateria[x][1]
     let cursos = tabelaMateria[x][2]
@@ -63,7 +63,7 @@ for(let x = 0; x < tabelaMateria.length; x++){
 }
 
 let listaTrabalhos = []
-for(let x = 0; x < tabelaTrabalho.length; x++){
+for (let x = 0; x < tabelaTrabalho.length; x++) {
     let nota = tabelaTrabalho[x][0]
     let materia = tabelaTrabalho[x][1]
     let aluno = tabelaTrabalho[x][2]

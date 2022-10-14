@@ -11,6 +11,15 @@ const Aluno = class {
         this.email = email
         this.materias = materias
     }
+    calculaAniversario() {
+        let anoMesDia = this.dataNascimento.split('-')
+        let ano = anoMesDia[0]
+        let mes = anoMesDia[1]
+        let dia = anoMesDia[2]
+        let nascimentoObject = new Date(ano, mes, dia)
+        let dataAtual = new Date()
+        return dataAtual.getFullYear() - nascimentoObject.getFullYear()
+    }
 }
 
 module.exports = Aluno;
