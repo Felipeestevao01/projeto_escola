@@ -55,5 +55,11 @@ Dúvidas
 
 - Nas tabelas professor e materia tem um campo que precisa informa um objeto.
 
-
-Ao listar os alunos - inserir uma LUPA na lista de trabalhos e materias para abrir uma modal com as informaçoes.
+Tela Login:
+1º A tela de login deve contemplar:
+- Tamanho de 350x450
+- 1 campo para usuário.
+- 1 campo para senha.
+- 1 botão de "login ou entrar".
+- 1 1 frase contendo "ainda não possui cadastro?".
+- 1 botão de "cadastre-se" ao lado da frase.
