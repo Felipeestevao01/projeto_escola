@@ -1,10 +1,10 @@
 const http = require("http");
 const url = require("url");
-const paginaAlunos = require("./controller/aluno");
-const paginaProfessores = require("./controller/professor");
-const paginaCursos = require("./controller/curso");
-const paginaMaterias = require("./controller/materia");
-const paginaTrabalhos = require("./controller/trabalho");
+const paginaAlunos = require("./controller_web2.0/aluno");
+const paginaProfessores = require("./controller_web2.0/professor");
+const paginaCursos = require("./controller_web2.0/curso");
+const paginaMaterias = require("./controller_web2.0/materia");
+const paginaTrabalhos = require("./controller_web2.0/trabalho");
 
 const requestListener = function (request, response) {
   let pathname = url.parse(request.url).pathname;
